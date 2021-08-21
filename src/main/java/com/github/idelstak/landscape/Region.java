@@ -44,7 +44,7 @@ public class Region {
         }
         this.range = range;
     }
-
+    
     public String[][] asMatrixBeforeRaining() {
         int[] landscape = range.landscape();
         String[][] matrix = new String[range.tallest()][landscape.length];
@@ -58,7 +58,7 @@ public class Region {
 
         return matrix;
     }
-
+    
     public String[][] asMatrixAfterRaining() {
         String[][] matrix = asMatrixBeforeRaining();
 
@@ -173,9 +173,9 @@ public class Region {
                 );
     }
 
-    private String asString(String[][] afterMatrix) {
+    private String asString(String[][] landscapeMatrix) {
         StringBuilder sb = new StringBuilder();
-        for (String[] rows : afterMatrix) {
+        for (String[] rows : landscapeMatrix) {
             StringBuilder s = new StringBuilder();
             for (String features : rows) {
                 s.append(features);
