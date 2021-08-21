@@ -81,7 +81,11 @@ Then run the jar file while passing numbers as arguments to represent the landsc
 
 ### Example
 
+Running:
+
 ```
 java -jar landscape-1.0.0-SNAPSHOT.jar 5 9 0 6 4 7 4 8 5 3 7 5 8 3 6 7 5 3 9 7 3 4 3
 ```
+Produces:
 
+![Screenshot](https://raw.githubusercontent.com/IdelsTak/water-towers-problem/master/screenshots/screenshot_2021-08-21_11-54-45.png)
